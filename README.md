@@ -15,7 +15,7 @@ A Kubernetes CLI tool for managing an Itzg Minecraft server.
 
 ### Compile with Go
 
-1. Clone the repository:
+1. Clone the repository
 
 `git clone https://github.com/coinedd1/cobble.git`
 
