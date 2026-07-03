@@ -1,11 +1,6 @@
 /bin/
-*.exe
 *.test
 *.out
-
 *.o
 *.a
-
 .env
-*.local.yaml
-
