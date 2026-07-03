@@ -1,6 +1,6 @@
 #   cobble
 A Kubernetes CLI tool for managing an Itzg Minecraft server.
-## Features:
+## Features
 * Pull crash and system logs seamlessly
 * Various command shortcuts, no need to kubectl exec into rcon-cli
 * More features in the works
