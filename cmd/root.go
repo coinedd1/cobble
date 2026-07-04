@@ -17,7 +17,7 @@ var cfg config.Config
 var rootCmd = &cobra.Command{
 	Use:           "cobble",
 	Short:         "Manage a Minecraft server running on Kubernetes",
-	Long:          "cobble consolidates normally tedious k8s management of a Minecraft server into a CLI tool that supports file pulls, in-game command execution, world management, and more.",
+	Long:          "Cobble is a Kubernetes Minecraft management tool designed to work with the itzg Minecraft image.",
 	SilenceUsage:  true,
 	SilenceErrors: true,
 	PersistentPreRunE: func(c *cobra.Command, args []string) error {
