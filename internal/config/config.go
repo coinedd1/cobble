@@ -20,6 +20,7 @@ func defaults() Config {
 	return Config{
 		Namespace: "minecraft",
 		Container: "minecraft",
+		Selector:  "app.kubernetes.io/instance=minecraft",
 		DataDir:   "/data",
 		RconMode:  "exec",
 	}
